@@ -6,11 +6,17 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>ID Card</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>Masukkan data Kartu</div>
+        <form action="/idcard" method="post" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Username">
+            <input type="date" name="tanggal"><p>
+            <input type="file" name="gambar"><p>
+            <input type="submit" name="login" class="login login-submit" value="Send">
+        </form>
     </body>
 </html>
