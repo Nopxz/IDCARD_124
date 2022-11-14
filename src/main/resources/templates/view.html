@@ -9,9 +9,17 @@ and open the template in the editor.
         <title>ID CARD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+            body{
+              background: #848484;
+              justify-content: center;
+              text-align: center;
+            }
+        </style>
     </head>
     <body>
         <div>ID CARD ANDA</div>
+        <hr>
         <p th:text="${name}"></p>
         <p th:text="${date}"></p>
         <img th:src="${image}"/>
